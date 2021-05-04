@@ -18,7 +18,7 @@ nav > ul > li {
     @apply my-2;
 }
 nav > ul > li > a {
-    @apply mx-3 px-3 py-2 text-lg font-medium text-gray-800 rounded-xl;
+    @apply mx-3 px-3 py-2 text-xl font-medium text-gray-800 rounded-xl;
 }
 @screen md {
     nav > ul > li {

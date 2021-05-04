@@ -6,7 +6,7 @@
       'h-screen items-center flex-col z-10': showMenu,
     }"
   >
-    <div class="flex justify-between items-end w-full md:w-auto">
+    <div class="flex justify-between items-start w-full md:w-auto">
       <router-link
         to="/"
         class="font-extrabold text-gray-800 hover:textt-gray-500"
