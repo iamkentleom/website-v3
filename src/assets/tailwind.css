@@ -51,15 +51,3 @@ hr {
 .footer\:links > ul > li > a:hover {
     @apply text-gray-500;
 }
-
-.menu {
-    background: url('menu.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    @apply stroke-current text-red-500;
-}
-.close {
-    background: url('close.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-}
