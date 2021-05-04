@@ -1,7 +1,17 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+  <NavBar class="px-8 md:px-24 xl:px-60"/>
+  <router-view class="px-8 md:px-24 xl:px-60"/>
+  <Footer class="px-8 md:px-24 xl:px-60"/>
 </template>
+
+<script>
+import NavBar from '@/components/NavBar.vue'
+import Footer from '@/components/Footer.vue'
+
+export default {
+  components: {
+    NavBar,
+    Footer,
+  }
+}
+</script>

@@ -8,6 +8,18 @@ const routes = [
     component: Home
   },
   {
+    path: '/projects',
+    name: 'Projects',
+    component: () => import('../views/Projects.vue'),
+    meta: { title: 'Projects' }
+  },
+  {
+    path: '/blog',
+    name: 'Blog',
+    component: () => import('../views/Blog.vue'),
+    meta: { title: 'Blog' }
+  },
+  {
     path: '/about',
     name: 'About',
     component: () => import('../views/About.vue'),
@@ -20,10 +32,9 @@ const router = createRouter({
   routes
 })
 
-router.afterEach((to, from, next) => {
+router.afterEach(to => {
   const DEFAULT = 'Kent Leo L. Makibulan'
-  document.title = to.meta.title ? to.meta.title + " | " + DEFAULT : DEFAULT
-  next()
+  document.title = to.meta.title ? to.meta.title + " - " + DEFAULT : DEFAULT
 })
 
 export default router
