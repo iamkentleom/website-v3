@@ -49,16 +49,16 @@
         <div class="footer:links">
           <p>Legal</p>
           <ul>
-            <li><a href="">Attributions</a></li>
-            <li><a href="">Privacy Policy</a></li>
+            <li><router-link to="/attributions">Attributions</router-link></li>
+            <li><router-link to="/privacy-policy">Privacy Policy</router-link></li>
           </ul>
         </div>
         <div class="footer:links">
           <p>Others</p>
           <ul>
-            <li><a href="">Curriculum Vitae</a></li>
-            <li><a href="">Site Map</a></li>
-            <li><a href="">Donate</a></li>
+            <li><router-link to="/cv">Curriculum Vitae</router-link></li>
+            <li><router-link to="/site-map">Site Map</router-link></li>
+            <li><router-link to="/donate">Donate</router-link></li>
           </ul>
         </div>
       </div>
