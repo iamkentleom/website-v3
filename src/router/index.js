@@ -24,6 +24,12 @@ const routes = [
     name: 'About',
     component: () => import('../views/About.vue'),
     meta: { title: 'About' }
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: '404',
+    component: () => import('../views/404.vue'),
+    meta: { title: '404' }
   }
 ]
 
