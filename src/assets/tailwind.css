@@ -12,6 +12,7 @@ html { font-family: 'Inter', sans-serif; }
 
 * {
     font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
 }
 
 nav > ul > li {
@@ -33,6 +34,10 @@ nav > ul > li > a:hover {
 }
 nav > ul > li > a.router-link-active {
     @apply text-white bg-teal-500;
+}
+
+section {
+    @apply py-16;
 }
 
 hr {
