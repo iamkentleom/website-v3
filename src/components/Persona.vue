@@ -3,7 +3,7 @@
         <img src="@/assets/terminal.svg" alt="Terminal" v-if="title == 'Developer'">
         <img src="@/assets/palette.svg" alt="Palette" v-if="title == 'Designer'">
         <img src="@/assets/trophy.svg" alt="Trophy" v-if="title == 'Dreamer'">
-        <h1 class="text-2xl font-medium">{{ title }}</h1>
+        <h1 class="text-2xl font-medium pt-4 pb-2">{{ title }}</h1>
         <p>{{ description }}</p>
     </div>
 </template>
