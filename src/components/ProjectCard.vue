@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-100 rounded-2xl overflow-hidden m-2 card">
+    <div class="bg-gray-100 rounded-2xl overflow-hidden card">
         <div class="overflow-hidden">
             <img class="w-full h-44 object-cover" :src="link" alt="">
         </div>
@@ -44,5 +44,8 @@ export default {
     .card {
         min-width: 20rem;
         max-width: 20rem;
+        border: 0.5rem solid white;
+        border-radius: 1.5rem;
+        box-sizing: content-box;
     }
 </style>
