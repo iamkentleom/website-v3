@@ -1,5 +1,5 @@
 <template>
-  <footer class="py-8">
+  <footer class="pt-16 pb-8">
     <hr />
     <div
       class="flex flex-col md:flex-row items-center md:items-start justify-between px-4 pt-8 pb-12"
