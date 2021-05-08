@@ -1,0 +1,28 @@
+#!/usr/bin/env sh
+
+# abort on errors
+set -e
+
+# handle flags
+while getopts m: flag
+do
+    case "${flag}" in
+        m) message=${OPTARG};;
+    esac
+done
+
+# build
+npm run build
+
+# # navigate into the build output directory
+cd dist/
+
+# deploy into iamkentleom.github.io
+git init
+git add .
+git commit -S -m $message
+git push -f git@github.com:iamkentleom/iamkentleom.github.io.git
+
+cd -
+
+echo 'Done.'
