@@ -20,8 +20,8 @@ cd dist/
 # deploy into iamkentleom.github.io
 git init
 git add .
-git commit -S -m $message
-git push -f git@github.com:iamkentleom/iamkentleom.github.io.git
+git commit -S -m "$message"
+git push --set-upstream -f git@github.com:iamkentleom/iamkentleom.github.io.git master
 
 cd -
 
