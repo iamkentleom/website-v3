@@ -26,6 +26,12 @@ const routes = [
     meta: { title: 'About' }
   },
   {
+    path: '/cv',
+    beforeEnter() {
+      window.open('https://docs.google.com/document/d/1G-RRMo8Wk4idBWkTkgw3RwQoNq9DFtnr7CzSrYSxIrM/export?format=pdf&attachment=false' , '_blank', 'noreferrer')
+    }
+  },
+  {
     path: '/:pathMatch(.*)*',
     name: '404',
     component: () => import('../views/404.vue'),
