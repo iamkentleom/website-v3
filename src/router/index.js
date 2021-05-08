@@ -10,19 +10,19 @@ const routes = [
   {
     path: '/projects',
     name: 'Projects',
-    component: () => import('../views/Projects.vue'),
+    component: () => import('../views/404.vue'),
     meta: { title: 'Projects' }
   },
   {
     path: '/blog',
     name: 'Blog',
-    component: () => import('../views/Blog.vue'),
+    component: () => import('../views/404.vue'),
     meta: { title: 'Blog' }
   },
   {
     path: '/about',
     name: 'About',
-    component: () => import('../views/About.vue'),
+    component: () => import('../views/404.vue'),
     meta: { title: 'About' }
   },
   {
