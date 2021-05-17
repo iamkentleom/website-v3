@@ -10,7 +10,7 @@ html { font-family: 'Inter', sans-serif; }
 
 @tailwind utilities;
 
-* {
+body {
     font-family: 'Inter', sans-serif;
     scroll-behavior: smooth;
 }
