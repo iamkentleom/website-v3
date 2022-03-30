@@ -50,7 +50,9 @@
           <p>Legal</p>
           <ul>
             <li><router-link to="/attributions">Attributions</router-link></li>
-            <li><router-link to="/privacy-policy">Privacy Policy</router-link></li>
+            <li>
+              <router-link to="/privacy-policy">Privacy Policy</router-link>
+            </li>
           </ul>
         </div>
         <div class="footer:links">
@@ -67,7 +69,7 @@
     <div
       class="flex flex-col-reverse md:flex-row items-center justify-between px-4 py-8 text-sm md:text-base"
     >
-      <p>&copy; 2021 Kent Leo L. Makibulan</p>
+      <p>&copy; {{ year }} Kent Leo L. Makibulan</p>
       <p class="text-teal-500">
         &lt;&#47;&gt; <span class="text-black">with</span> ❤
       </p>
@@ -76,6 +78,7 @@
 </template>
 
 <script>
+import moment from "moment";
 import mail from "@/assets/mail.vue";
 import linkedin from "@/assets/linkedin.vue";
 import github from "@/assets/github.vue";
@@ -88,6 +91,11 @@ export default {
     linkedin,
     github,
     twitter,
+  },
+  computed: {
+    year() {
+      return moment().format("YYYY");
+    },
   },
 };
 </script>
