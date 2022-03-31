@@ -1,7 +1,11 @@
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
 @supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
+  html {
+    font-family: "Inter var", sans-serif;
+  }
 }
 
 @tailwind base;
@@ -11,48 +15,54 @@ html { font-family: 'Inter', sans-serif; }
 @tailwind utilities;
 
 html {
-    font-family: 'Inter', sans-serif;
-    scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+div#app {
+  @apply h-full;
 }
 
 nav > ul > li {
-    @apply my-2;
+  @apply my-2;
 }
 nav > ul > li > a {
-    @apply mx-3 px-3 py-2 text-xl font-medium text-gray-800 rounded-xl;
+  @apply mx-3 px-3 py-2 text-xl font-medium text-gray-800 rounded-xl;
 }
 @screen md {
-    nav > ul > li {
-        @apply my-0;
-    }
-    nav > ul > li > a {
-        @apply text-base;
-    }
+  nav > ul > li {
+    @apply my-0;
+  }
+  nav > ul > li > a {
+    @apply text-base;
+  }
 }
 nav > ul > li > a:hover {
-    @apply text-teal-500 bg-teal-100;
+  @apply text-teal-500 bg-teal-100;
 }
 nav > ul > li > a.router-link-active {
-    @apply text-white bg-teal-500;
+  @apply text-white bg-teal-500;
 }
 
 section {
-    @apply py-16;
+  @apply py-16;
 }
 
 hr {
-    @apply w-full;
+  @apply w-full;
 }
 
 .footer\:links {
-    @apply py-4 md:py-0 px-0 md:pr-20 text-center md:text-left;
+  @apply py-4 md:py-0 px-0 md:pr-20 text-center md:text-left;
 }
 .footer\:links > p {
-    @apply text-gray-500;
+  @apply text-gray-500;
 }
 .footer\:links > ul {
-    @apply mt-2;
+  @apply mt-2;
 }
 .footer\:links > ul > li > a:hover {
-    @apply text-gray-500;
+  @apply text-gray-500;
 }
