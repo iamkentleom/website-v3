@@ -5,9 +5,9 @@
       class="flex flex-col md:flex-row items-center justify-around"
     >
       <div>
-        <h1 class="font-medium text-6xl">Kent</h1>
-        <h1 class="font-medium text-6xl">Leo L.</h1>
-        <h1 class="font-medium text-6xl">Makibulan</h1>
+        <h1 class="font-semibold text-6xl">Kent</h1>
+        <h1 class="font-semibold text-6xl">Leo L.</h1>
+        <h1 class="font-semibold text-6xl">Makibulan</h1>
         <p class="my-4 text-xl">{{ age }} - Student Developer - UP Cebu</p>
         <a
           class="px-3 py-2 bg-teal-100 hover:bg-teal-50 text-teal-500 rounded-xl"
@@ -15,7 +15,7 @@
           >Learn More -></a
         >
       </div>
-      <div class="w-full md:w-7/12 pt-8 md:pt-0">
+      <div class="w-full xl:w-auto h-full xl:h-96 aspect pt-8 xl:pt-0">
         <lottie-player
           src="https://assets10.lottiefiles.com/packages/lf20_eudqddb6.json"
           background="transparent"
@@ -27,8 +27,8 @@
     </section>
     <section id="about">
       <div class="text-center">
-        <p class="text-teal-500 font-medium">ABOUT ME</p>
-        <h1 class="font-medium text-4xl">Hello World! I'm Kent</h1>
+        <p class="text-teal-500 font-extrabold">ABOUT ME</p>
+        <h1 class="font-semibold text-4xl">Hello World! I'm Kent</h1>
         <p>I picture myself as the unification of these three personas</p>
       </div>
       <div class="flex flex-col md:flex-row justify-around px-0 2xl:px-20">
@@ -48,8 +48,8 @@
     </section>
     <section id="projects">
       <div class="text-center">
-        <p class="text-teal-500 font-medium">PROJECTS</p>
-        <h1 class="font-medium text-4xl">My Works</h1>
+        <p class="text-teal-500 font-extrabold">PROJECTS</p>
+        <h1 class="font-semibold text-4xl">My Works</h1>
         <p>A showcase of my previous projects</p>
       </div>
       <div class="flex flex-col items-center pt-8">
@@ -63,9 +63,9 @@
     </section>
     <section id="contact">
       <div class="flex flex-col items-center">
-        <p class="text-teal-500 font-medium">CONTACT</p>
-        <h1 class="font-medium text-4xl">Hire Me</h1>
-        <p>Please 🙏</p>
+        <p class="text-teal-500 font-extrabold">CONTACT</p>
+        <h1 class="font-semibold text-4xl">Hire Me</h1>
+        <p>Let's get some work done</p>
         <p class="w-full md:w-2/3 text-center text-lg py-8">
           Whether you are thinking of hiring me or just up for a nerdy
           chit-chat, feel free to contact with me through these various
@@ -132,3 +132,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.aspect {
+  aspect-ratio: 42 / 24;
+}
+</style>
