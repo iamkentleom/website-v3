@@ -127,7 +127,7 @@ export default {
   },
   computed: {
     age() {
-      return moment().diff("1999, 10, 08", "years");
+      return moment().diff(moment("1999, 10, 08"), "years");
     },
   },
 };
