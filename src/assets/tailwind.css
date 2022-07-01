@@ -14,6 +14,20 @@ html {
 
 @tailwind utilities;
 
+@layer utilities {
+  @variants responsive {
+    .auto-cols-30 {
+      grid-auto-columns: 30%;
+    }
+    .auto-cols-60 {
+      grid-auto-columns: 60%;
+    }
+    .auto-cols-88 {
+      grid-auto-columns: 88%;
+    }
+  }
+}
+
 html {
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
