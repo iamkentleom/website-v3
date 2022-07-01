@@ -8,7 +8,7 @@
         <h1 class="font-semibold text-6xl">Kent</h1>
         <h1 class="font-semibold text-6xl">Leo L.</h1>
         <h1 class="font-semibold text-6xl">Makibulan</h1>
-        <p class="my-4 text-xl">{{ age }} - Student Developer - UP Cebu</p>
+        <p class="my-4 text-xl">{{ age }} - Software Developer - Cebu PH</p>
         <a
           class="px-3 py-2 bg-teal-100 hover:bg-teal-50 text-teal-500 rounded-xl"
           href="#about"
@@ -69,9 +69,9 @@
         <p class="w-full md:w-2/3 text-center text-lg py-8">
           Whether you are thinking of hiring me or just up for a nerdy
           chit-chat, feel free to contact with me through these various
-          platforms.
+          platforms
         </p>
-        <div class="grid grid-cols-4 gap-4 w-4/5 md:w-1/3">
+        <div class="grid grid-cols-4 gap-4 w-4/5 md:w-1/3 justify-items-center">
           <a
             href="mailto:leomakibulan@gmail.com"
             target="_blank"
