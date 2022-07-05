@@ -21,13 +21,6 @@
         url="https://temp-file-share.web.app/"
       />
       <ProjectCard
-        banner="tinyurl-rest-wrapper-banner.webp"
-        type="api"
-        title="tinyurl-rest-wrapper"
-        description="A workaround for the old TinyURL API and lets you make requests freely."
-        url="https://tinyurl-rest-wrapper.herokuapp.com/"
-      />
-      <ProjectCard
         banner="DarkerJupyter-banner.webp"
         type="extension"
         title="DarkerJupyter"
@@ -40,6 +33,13 @@
         title="zippr"
         description="Releases archiving automation tool."
         url="https://www.npmjs.com/package/zippr/"
+      />
+      <ProjectCard
+        banner="tinyurl-rest-wrapper-banner.webp"
+        type="api"
+        title="tinyurl-rest-wrapper"
+        description="A workaround for the old TinyURL API and lets you make requests freely."
+        url="https://tinyurl-rest-wrapper.herokuapp.com/"
       />
       <ProjectCard
         banner="lorem-banner.webp"
