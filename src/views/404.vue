@@ -2,13 +2,13 @@
   <div class="flex flex-col md:flex-row items-center justify-around py-8">
     <div>
       <h1 class="font-semibold text-6xl">Oops...</h1>
-      <p class="my-4 text-xl">
+      <p class="mt-4 mb-6 text-xl">
         it's either you've inputted the wrong url or this page is not yet
         implemented
       </p>
       <router-link
         to="/"
-        class="px-3 py-2 bg-teal-100 hover:bg-teal-50 text-teal-500 rounded-xl"
+        class="px-4 py-3 font-semibold bg-teal-100 hover:bg-teal-50 text-teal-500 rounded-xl"
         >&lt;- Take me home</router-link
       >
     </div>

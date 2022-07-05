@@ -8,9 +8,11 @@
         <h1 class="font-semibold text-6xl">Kent</h1>
         <h1 class="font-semibold text-6xl">Leo L.</h1>
         <h1 class="font-semibold text-6xl">Makibulan</h1>
-        <p class="my-4 text-xl">{{ age }} - Software Developer - Cebu PH</p>
+        <p class="mt-4 mb-6 text-xl">
+          {{ age }} - Software Developer - Cebu PH
+        </p>
         <a
-          class="px-3 py-2 bg-teal-100 hover:bg-teal-50 text-teal-500 rounded-xl"
+          class="px-4 py-3 font-semibold bg-teal-100 hover:bg-teal-50 text-teal-500 rounded-xl"
           href="#about"
           >Learn More -></a
         >
@@ -56,7 +58,7 @@
         <Slider />
         <router-link
           to="/projects"
-          class="px-3 py-2 mt-6 mb-8 text-white bg-teal-500 hover:bg-teal-400 rounded-xl"
+          class="px-4 py-3 font-semibold mt-6 mb-8 text-white bg-teal-500 hover:bg-teal-400 rounded-xl"
           >View all projects -></router-link
         >
       </div>
@@ -76,28 +78,28 @@
             href="mailto:leomakibulan@gmail.com"
             target="_blank"
             rel="noreferrer"
-            class="hover:text-red-500"
+            class="hover:bg-red-500 hover:text-white rounded-2xl p-2 transition-all"
             ><mail
           /></a>
           <a
             href="https://linkedin.com/in/iamkentleom"
             target="_blank"
             rel="noreferrer"
-            class="hover:text-blue-600"
+            class="hover:bg-blue-600 hover:text-white rounded-2xl p-2 transition-all"
             ><linkedin
           /></a>
           <a
             href="https://github.com/iamkentleom"
             target="_blank"
             rel="noreferrer"
-            class="hover:text-gray-500"
+            class="hover:bg-gray-700 hover:text-white rounded-2xl p-2 transition-all"
             ><github
           /></a>
           <a
             href="https://twitter.com/iamkentleom"
             target="_blank"
             rel="noreferrer"
-            class="hover:text-blue-400"
+            class="hover:bg-blue-400 hover:text-white rounded-2xl p-2 transition-all"
             ><twitter
           /></a>
         </div>
