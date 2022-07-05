@@ -7,32 +7,37 @@
       <div class="flex flex-col items-center md:items-start">
         <p class="text-xl font-extrabold">iamkentleom</p>
         <div
-          class="grid grid-cols-4 md:grid-cols-2 gap-4 md:w-20 mt-2 justify-items-center items-center"
+          class="grid grid-cols-4 md:grid-cols-2 gap-2 md:w-20 mt-2 justify-items-center items-center"
         >
           <a
             href="mailto:leomakibulan@gmail.com"
             target="_blank"
             rel="noreferrer"
           >
-            <mail class="h-6 w-6 hover:text-red-500" />
+            <mail
+              class="h-8 w-8 hover:bg-red-500 hover:text-white rounded-md p-1 transition-all"
+            />
           </a>
           <a
             href="https://linkedin.com/in/iamkentleom"
             target="_blank"
             rel="noreferrer"
-            ><linkedin class="h-6 w-6 hover:text-blue-600"
+            ><linkedin
+              class="h-8 w-8 hover:bg-blue-600 hover:text-white rounded-md p-1 transition-all"
           /></a>
           <a
             href="https://github.com/iamkentleom"
             target="_blank"
             rel="noreferrer"
-            ><github class="h-6 w-6 hover:text-gray-500"
+            ><github
+              class="h-8 w-8 hover:bg-gray-700 hover:text-white rounded-md p-1 transition-all"
           /></a>
           <a
             href="https://twitter.com/iamkentleom"
             target="_blank"
             rel="noreferrer"
-            ><twitter class="h-6 w-6 hover:text-blue-400"
+            ><twitter
+              class="h-8 w-8 hover:bg-blue-400 hover:text-white rounded-md p-1 transition-all"
           /></a>
         </div>
       </div>
