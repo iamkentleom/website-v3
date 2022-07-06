@@ -78,28 +78,28 @@
             href="mailto:leomakibulan@gmail.com"
             target="_blank"
             rel="noreferrer"
-            class="hover:bg-red-500 hover:text-white rounded-2xl p-2 transition-all"
+            class="hover:bg-red-500 hover:text-white rounded-xl p-2 transition-all"
             ><mail
           /></a>
           <a
             href="https://linkedin.com/in/iamkentleom"
             target="_blank"
             rel="noreferrer"
-            class="hover:bg-blue-600 hover:text-white rounded-2xl p-2 transition-all"
+            class="hover:bg-blue-600 hover:text-white rounded-xl p-2 transition-all"
             ><linkedin
           /></a>
           <a
             href="https://github.com/iamkentleom"
             target="_blank"
             rel="noreferrer"
-            class="hover:bg-gray-700 hover:text-white rounded-2xl p-2 transition-all"
+            class="hover:bg-gray-700 hover:text-white rounded-xl p-2 transition-all"
             ><github
           /></a>
           <a
             href="https://twitter.com/iamkentleom"
             target="_blank"
             rel="noreferrer"
-            class="hover:bg-blue-400 hover:text-white rounded-2xl p-2 transition-all"
+            class="hover:bg-blue-400 hover:text-white rounded-xl p-2 transition-all"
             ><twitter
           /></a>
         </div>
