@@ -1,5 +1,7 @@
 <template>
-  <li class="rounded-2xl overflow-hidden">
+  <li
+    class="rounded-3xl overflow-hidden p-2 hover:bg-gray-100 hover:border-gray-200 border border-transparent"
+  >
     <a :href="url" target="_blank" rel="noreferrer">
       <div class="container">
         <div class="overflow-hidden rounded-2xl">
@@ -11,8 +13,8 @@
           />
         </div>
         <div class="overlay">
-          <div class="flex bg-teal-50 border p-4 rounded-2xl">
-            visit {{ title }} &ensp;
+          <div class="flex bg-gray-100 border shadow-lg p-4 rounded-2xl">
+            view {{ title }} &ensp;
             <img class="w-6" src="@/assets/external-link.svg" alt="Link" />
           </div>
         </div>
@@ -76,9 +78,9 @@ li:hover .overlay {
   transition: 0.8s ease;
 }
 li:hover div.container > div > img {
-  transform: scale(1.2);
-  filter: blur(4px);
-  -webkit-filter: blur(4px);
+  transform: scale(1.1);
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
   transition: 0.8s ease;
 }
 </style>
