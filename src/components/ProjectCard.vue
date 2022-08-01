@@ -1,6 +1,6 @@
 <template>
   <li
-    class="rounded-3xl overflow-hidden p-2 hover:bg-gray-100 hover:border-gray-200 border border-transparent"
+    class=" group rounded-3xl overflow-hidden p-2 hover:bg-gray-100 hover:border-gray-200 border border-transparent"
   >
     <a :href="url" target="_blank" rel="noreferrer">
       <div class="container">
@@ -24,7 +24,7 @@
         <div class="flex items-center">
           <h1 class="text-2xl font-semibold">{{ title }}</h1>
           <p
-            class="bg-teal-100 uppercase text-xs text-teal-500 font-extrabold ml-2 px-3 py-1 rounded-full"
+            class="border group-hover:border-teal-200 bg-teal-100 border-teal-100 uppercase text-xs text-teal-500 font-extrabold ml-2 px-2 py-1 rounded-lg"
           >
             {{ type }}
           </p>
