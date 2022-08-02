@@ -1,13 +1,41 @@
 <template>
-  <div class="relative w-full">
-    <button
-      aria-label="Scroll Left"
-      @click="left"
-      class="z-50 absolute -left-5 w-10 h-10 flex justify-center items-center bg-white border border-gray-300 hover:shadow-lg rounded-full"
-      :class="{ invisible: scrollPos == 0 }"
-    >
-      <chevronLeft />
-    </button>
+  <div class="w-full">
+    <div class="flex gap-2 justify-end py-2">
+      <button
+        aria-label="Scroll Left"
+        @click="left"
+        class="w-10 h-10 flex justify-center items-center border rounded-xl"
+        :class="[
+          {
+            'bg-gray-200 border-gray-200 hover:border-gray-500 text-gray-700':
+              scrollPos != 0,
+          },
+          {
+            'bg-gray-100 border-gray-100 hover:border-gray-100 text-gray-400':
+              scrollPos == 0,
+          },
+        ]"
+      >
+        <chevronLeft />
+      </button>
+      <button
+        aria-label="Scroll Right"
+        @click="right"
+        class="w-10 h-10 flex justify-center items-center border rounded-xl"
+        :class="[
+          {
+            'bg-gray-200 border-gray-200 hover:border-gray-500 text-gray-700':
+              scrollPos != maxPos,
+          },
+          {
+            'bg-gray-100 border-gray-100 hover:border-gray-100 text-gray-400':
+              scrollPos == maxPos,
+          },
+        ]"
+      >
+        <chevronRight />
+      </button>
+    </div>
     <ul
       class="slider snaps w-full grid grid-flow-col auto-cols-88 md:auto-cols-60 xl:auto-cols-30 gap-4 overflow-x-auto"
       @scroll="updateScroll"
@@ -49,14 +77,6 @@
         url="https://github.com/iamkentleom/lorem/"
       />
     </ul>
-    <button
-      aria-label="Scroll Right"
-      @click="right"
-      class="absolute -right-5 w-10 h-10 flex justify-center items-center bg-white border border-gray-300 hover:shadow-md rounded-full"
-      :class="{ invisible: scrollPos == maxPos }"
-    >
-      <chevronRight />
-    </button>
   </div>
 </template>
 
