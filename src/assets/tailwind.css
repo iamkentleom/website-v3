@@ -43,7 +43,7 @@ nav > ul > li {
   @apply my-2;
 }
 nav > ul > li > a {
-  @apply mx-3 px-3 py-2 text-xl font-medium text-gray-800 rounded-xl;
+  @apply mx-5 py-2 text-xl font-semibold text-gray-800 border-b-2 border-transparent;
 }
 @screen md {
   nav > ul > li {
@@ -54,10 +54,10 @@ nav > ul > li > a {
   }
 }
 nav > ul > li > a:hover {
-  @apply text-teal-500 bg-teal-100;
+  @apply text-teal-500 border-teal-100;
 }
 nav > ul > li > a.router-link-active {
-  @apply text-white bg-teal-500;
+  @apply text-teal-500 border-teal-500;
 }
 
 section {
