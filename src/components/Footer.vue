@@ -41,7 +41,7 @@
           /></a>
         </div>
       </div>
-      <div class="flex flex-col md:flex-row pt-4 md:pt-0 space-x-24">
+      <div class="flex flex-col md:flex-row pt-4 md:pt-0 md:space-x-24">
         <div class="footer:links">
           <p>Pages</p>
           <ul>
