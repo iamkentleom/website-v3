@@ -22,7 +22,7 @@
       <div class="overflow-hidden"></div>
       <div class="flex justify-between items-start px-4 pt-4">
         <div class="flex items-center">
-          <h1 class="text-2xl font-semibold">{{ title }}</h1>
+          <h1 class="text-xl font-semibold">{{ title }}</h1>
           <p
             class="border group-hover:border-teal-200 bg-teal-100 border-teal-100 uppercase text-xs text-teal-500 font-extrabold ml-2 px-2 py-1 rounded-lg"
           >

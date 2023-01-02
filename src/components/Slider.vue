@@ -67,7 +67,7 @@
         type="api"
         title="tinyurl-rest-wrapper"
         description="A workaround for the old TinyURL API and lets you make requests freely."
-        url="https://tinyurl-rest-wrapper.herokuapp.com/"
+        url="https://tinyurl-rest-wrapper.onrender.com/"
       />
       <ProjectCard
         banner="lorem-banner.webp"
