@@ -5,9 +5,9 @@
       class="flex flex-col md:flex-row items-center justify-around"
     >
       <div>
-        <h1 class="font-semibold text-6xl">Kent</h1>
-        <h1 class="font-semibold text-6xl">Leo L.</h1>
-        <h1 class="font-semibold text-6xl">Makibulan</h1>
+        <h1 class="font-semibold text-5xl lg:text-6xl">Kent</h1>
+        <h1 class="font-semibold text-5xl lg:text-6xl">Leo L.</h1>
+        <h1 class="font-semibold text-5xl lg:text-6xl">Makibulan</h1>
         <p class="mt-4 mb-6 text-xl">{{ age }} - Software Engineer - Cebu PH</p>
         <a
           class="px-4 py-3 font-semibold bg-teal-100 hover:bg-teal-50 text-teal-500 rounded-xl"
