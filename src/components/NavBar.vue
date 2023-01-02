@@ -9,12 +9,12 @@
     <div class="flex justify-between items-start w-full md:w-auto">
       <router-link
         to="/"
-        class="font-extrabold text-gray-800 hover:textt-gray-500"
+        class="font-extrabold text-gray-800 hover:text-gray-500"
         >iamkentleom</router-link
       >
       <button class="md:hidden" @click="toggleMenu">
-        <hamburger class="h-6 w-6" v-if="!showMenu"/>
-        <close class="h-6 w-6" v-if="showMenu"/>
+        <hamburger class="h-6 w-6" v-if="!showMenu" />
+        <close class="h-6 w-6" v-if="showMenu" />
       </button>
     </div>
     <ul
@@ -35,14 +35,14 @@
 </template>
 
 <script>
-import hamburger from '@/assets/hamburger.vue'
-import close from '@/assets/close.vue'
+import hamburger from "@/assets/hamburger.vue";
+import close from "@/assets/close.vue";
 
 export default {
-  name: 'NavBar',
+  name: "NavBar",
   components: {
     hamburger,
-    close
+    close,
   },
   data() {
     return {
